@@ -1,0 +1,51 @@
+.dropdown-menu-button {
+  width: fit-content;
+  background-color: $background-color-secondary;
+  margin: $margin-secondary;
+  padding: $padding-secondary;
+  border-radius: $border-radius-primary;
+  div {
+    button {
+      background-color: $background-color-tertiary;
+      padding: $padding-primary;
+      border-radius: $border-radius-primary;
+    }
+    ul {
+      list-style: none;
+      width: fit-content;
+      background-color: $background-color-tertiary;
+      padding: $padding-secondary;
+      border-radius: $border-radius-primary;
+
+      li {
+        padding: $padding-primary/2;
+        text-align: center;
+      }
+      li:hover {
+        cursor: pointer;
+        font-weight: $font-weight-primary;
+        box-shadow: 10px 5px 5px $background-color-primary;
+      }
+    }
+  }
+  article {
+    h3 {
+      text-align: center;
+      font-size: $font-size-h3;
+      margin-bottom: $margin-secondary;
+    }
+    ul {
+      list-style: none;
+      margin-bottom: $margin-secondary;
+      li {
+        padding: $padding-primary;
+      }
+      li:nth-child(even) {
+        background-color: $list-background-color-primary;
+      }
+      li:nth-child(odd) {
+        background-color: $list-background-color-secondary;
+      }
+    }
+  }
+}

@@ -8,6 +8,7 @@ const Dropdown = (workers) => {
   return (
     <section className="company-dropdown">
       <select name="workers" id="workers" onChange={handleChange}>
+        <option>Select worker</option>
         {workers.workers.map((worker, i) => {
           return (
             <option value={i} key={i}>
@@ -19,9 +20,6 @@ const Dropdown = (workers) => {
 
       {workerInfo && (
         <article>
-          <h2>
-            {workerInfo.firstname} {workerInfo.lastname}
-          </h2>
           <ul>
             <li>
               <span className="listSpan">Pants color:</span>{" "}

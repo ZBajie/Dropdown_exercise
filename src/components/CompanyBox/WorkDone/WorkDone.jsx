@@ -2,7 +2,6 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable react/jsx-key */
 const WorkDone = (worksDone) => {
-  console.log(worksDone)
   return (
     <section className="work-done">
       <h2>Past Projects</h2>
