@@ -1,0 +1,8 @@
+@import "./abstracts/colors";
+@import "./abstracts/fonts";
+@import "./abstracts/variables";
+
+@import "./base/base";
+@import "./../components/CompanyBox/Header/header";
+@import "./../components/CompanyBox/Dropdown/dropdown";
+@import "./../components/CompanyBox/About/about";

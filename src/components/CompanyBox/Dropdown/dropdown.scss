@@ -1,0 +1,38 @@
+.company-dropdown {
+  width: fit-content;
+  background-color: azure;
+  margin: 2rem;
+  padding: 2rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  select {
+    width: fit-content;
+    margin-bottom: $margin-secondary;
+    font-size: large;
+    background-color: $background-color-tertiary;
+    padding: $padding-primary;
+    border-radius: $border-radius-primary;
+    align-self: center;
+  }
+  select:hover {
+    cursor: pointer;
+  }
+  article {
+    h2 {
+      text-align: center;
+    }
+    ul {
+      list-style: none;
+      li {
+        padding: $padding-primary;
+        span {
+          font-weight: 900;
+          margin-right: $margin-primary;
+        }
+      }
+    }
+  }
+}
